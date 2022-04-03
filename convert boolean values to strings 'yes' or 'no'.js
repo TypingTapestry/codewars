@@ -1,0 +1,1 @@
+let boolToWord = bool => bool ? 'Yes' : 'No';
