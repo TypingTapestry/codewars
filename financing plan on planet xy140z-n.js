@@ -1,0 +1,1 @@
+let finance = n => (n * ++n * ++n) / 2;
