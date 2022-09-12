@@ -1,0 +1,2 @@
+let minimumSum = (values, n) => values.sort((a, b) => a - b).slice(0, n).reduce((x, y) => x + y, 0);
+let maximumSum = (values, n) => values.sort((a, b) => b - a).slice(0, n).reduce((x, y) => x + y, 0);
