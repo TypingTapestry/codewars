@@ -1,0 +1,1 @@
+let toInteger = n => n | 0;
