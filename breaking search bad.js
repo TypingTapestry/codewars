@@ -1,0 +1,1 @@
+let search = searchTerm => TITLES.filter(title => new RegExp(searchTerm, 'gi').test(title));
