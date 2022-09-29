@@ -1,0 +1,1 @@
+let getScore = n => 25 * n * (n + 1);

@@ -1,0 +1,1 @@
+let divisibleCount = (x, y, k) => Math.floor(y / k) - Math.floor((x - 1) / k);
