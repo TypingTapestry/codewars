@@ -1,0 +1,1 @@
+let solution = date => (date.getDate() + date.getMonth() + date.getFullYear()) % 9 + 1;
