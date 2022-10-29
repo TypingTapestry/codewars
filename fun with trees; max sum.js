@@ -1,0 +1,1 @@
+let maxSum = root => !root ? 0 : root.value + Math.max(maxSum(root.left), maxSum(root.right));
