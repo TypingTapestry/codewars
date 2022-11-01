@@ -1,0 +1,1 @@
+let solve = s => s.split(/[aeiou]/).reduce((prev, curr) => Math.max(prev, curr.split('').reduce((a, b) => a + b.charCodeAt(0) - 96, 0)), 0);

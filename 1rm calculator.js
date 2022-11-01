@@ -1,0 +1,1 @@
+let calculate1RM = (w, r) => r > 1 ? Math.round(Math.max(w * (1 + r / 30), 100 * w / (101.3 - 2.67123 * r), w * r ** 0.10)) : w * r;

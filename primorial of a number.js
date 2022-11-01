@@ -1,0 +1,1 @@
+let numPrimorial = n => [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47].slice(0, n).reduce((prev, curr) => prev *= curr, 1);

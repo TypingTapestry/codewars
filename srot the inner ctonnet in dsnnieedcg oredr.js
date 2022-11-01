@@ -1,0 +1,1 @@
+let sortTheInnerContent = words => words.split(' ').map(x => x[0] + x.slice(1, -1).split('').sort().reverse().join('') + (x.length > 1 ? x.slice(-1) : '')).join(' ');

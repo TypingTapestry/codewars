@@ -1,0 +1,1 @@
+let strToHash = str => str ? str.split(', ').reduce((a, b) => (a[(b = b.split('='))[0]] = Number(b[1]), a), {}) : {};
