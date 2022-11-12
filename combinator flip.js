@@ -1,0 +1,1 @@
+let flip = x => (...arguments) => x(...arguments.reverse());
