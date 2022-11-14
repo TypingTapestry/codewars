@@ -1,0 +1,1 @@
+let findUnique = numbers => numbers.reduce((a, b) => a ^ b);
