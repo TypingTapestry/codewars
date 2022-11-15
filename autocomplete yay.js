@@ -1,0 +1,1 @@
+let autocomplete = (input, dictionary) => dictionary.filter(word => word.toLowerCase().startsWith(input.replace(/[^a-z]/g, ''))).slice(0, 5);

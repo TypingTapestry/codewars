@@ -1,0 +1,1 @@
+let sortAnimal = animal => animal ? animal.sort((a, b) => a.numberOfLegs - b.numberOfLegs || a.name.localeCompare(b.name)) : animal;

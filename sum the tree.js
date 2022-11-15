@@ -1,0 +1,1 @@
+let sumTheTreeValues = root => root && root.value + sumTheTreeValues(root.left) + sumTheTreeValues(root.right);
