@@ -1,0 +1,1 @@
+let selReverse = fn = (array, length) => array.length && length ? [...array.slice(0, length).reverse(), ...fn(array.slice(length), length)] : array;
