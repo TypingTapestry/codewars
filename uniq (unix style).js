@@ -1,0 +1,1 @@
+let uniq = a => a.filter((el, idx, arr) => idx === 0 || el !== arr[idx - 1]);
