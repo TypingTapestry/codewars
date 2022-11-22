@@ -1,0 +1,1 @@
+let roomMates = (rooms, floor) => rooms.filter((room, idx) => room && floor * 6 - 6 <= idx && idx < floor * 6);
