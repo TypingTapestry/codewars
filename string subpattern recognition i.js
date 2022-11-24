@@ -1,0 +1,1 @@
+let hasSubpattern = string => (string + string).indexOf(string, 1) !== string.length;
