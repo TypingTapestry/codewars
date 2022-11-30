@@ -1,0 +1,1 @@
+let fisHex = name => [...name.replace(/[^a-f]/gi, '')].reduce((acc, cur) => acc ^ parseInt(cur, 16), 0);
