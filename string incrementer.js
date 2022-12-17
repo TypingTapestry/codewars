@@ -1,0 +1,1 @@
+let incrementString = str => str.replace(/[0-8]?9*$/, x => String(++x));
